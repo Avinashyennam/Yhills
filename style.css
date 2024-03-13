@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+.nav{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);    
+    display:flex;
+    justify-content: space-between; 
+    height:100px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.left img{
+    padding-bottom: 10px;
+}
+.middle ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:25px 25px;
+    margin-right:15px;
+    list-style: none;
+    
+}
+li{
+    margin:10px 15px;
+    text-decoration:none;
+    font-size: large;
+    scroll-behavior:smooth;
+}
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:0 20px;
+}
+.right .avatar{
+    padding:25px 20px;
+}
+ion-icon{
+    font-size: 25px;
+}
+.all{
+    margin:10vh 22vh;
+    background-color: #ffffff;
+}
+.home{
+    display: flex;
+    background-color:#ffffff;
+    height: 30rem;
+}
+.home .home-left h1{
+    font-size:7vh;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.9;
+}
+.home .home-left p{
+    margin-top: 20px;
+    font-size: larger;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.home .home-left input{
+    width:30vh;
+}
+.home  img{
+    height: 25rem;
+    width: 35rem;
+    border-radius: 20%;
+    border-color: #ffffff;
+    margin-left: 10px;
+}
+.apple img{
+    width:30vh;
+    height:20vh;
+    border-radius: 15px;
+}
+.categories{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 10px;
+}
+.categories .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.categories .apple{
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories .banana{
+    margin: 20px 0px;
+}
+.categories .banana h3{
+    margin: 10px 0px;
+}
+.categories .banana h3,h5{
+    margin-left:  10px;
+}
+.categories .banana:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 20px;
+}
+
+.Explore{
+    background: #003973;
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+background: linear-gradient(to right, #E5E5BE, #003973);
+    border-radius: 10px;    
+}
+.Explore .heading{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.Explore .two{
+    background-color: #f8f3f3;
+    
+}
+.one{
+    display: flex;
+}
+.Explore img{
+    height: 38vh;
+    width: 70vh;
+}
+.Explore p{
+    margin: 10px;
+}
+.Explore h1{
+    margin: 10px;
+}
+.Explore span{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+.click button{
+    width:22vh;
+    height: 6vh;
+    background-color: rgb(230, 61, 95);
+    color: aliceblue;
+    border-radius: 10px;
+    border-bottom-right-radius:0px;
+    font-size: large;
+}
+.click button:hover{
+    cursor: pointer;
+}
+
+/* style to about us */
+.about-us{
+    background: #3E5151;  
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151); 
+    background: linear-gradient(to right, #DECBA4, #3E5151); 
+    border-radius: 10px;
+}
+.about-us .heading{
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+}
+.about-us .companies{
+    margin-left: 10px;
+}
+.about-us .companies img{
+    width:30vh;
+    height:19vh;
+}
+.about-us .ibm{
+    width:36vh;
+    height:22vh;
+}
+.about-us .micro{
+    width:32vh;
+    height:20vh;
+}
+.about-us .google{
+    width:28vh;
+    height:22vh;
+}
+.about-us .content{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    margin-left: 60px;
+}
+.about-us img{
+    width:80vh;
+    height:50vh;
+    border-radius: 15px;
+}
+.text h1{
+    font-size: 6vh;
+}
+.about-us button{
+    width:22vh;
+    height: 6vh;
+    background-color: rgb(230, 61, 95);
+    color: aliceblue;
+    border-radius: 10px;
+    border-bottom-right-radius:0px;
+    font-size: large;
+    margin-top: 15px;
+} 
+
+/* style to footer */
+.contact{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .footer-left h3{
+    margin:2vh 0vh;
+}
+.contact .footer-right{
+    width:50rem;
+    padding: 0vh 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .footer-right .mid{
+    margin:0vh 20vh;
+
+}
+.contact .footer-right h3{
+    margin:4vh 0vh;
+}
